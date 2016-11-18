@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="welcome_emergency">Emergency</string>
+    <string name="theme_type">"material_light"</string>
+    <string name="start">"android.resource://com.tplink.overlay_setupwizard/drawble/illustration_tile"</string>
+    <string name="title">"title"</string>
+    <string name="to_next">"点我去下一步"</string>
+    <string name="crash">"点我崩溃"</string>
+    <string name="long_show">"content\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\ncontent\n"</string>
+    <plurals name="sim_missing_text">
+        <item quantity="zero">"aaa"</item>
+        <item quantity="one">"bbb"</item>
+        <item quantity="two">"ccc"</item>
+        <item quantity="many">"ddd"</item>
+        <item quantity="other">"eee6664534576"</item><!--没插卡的时候显示-->
+    </plurals>
+
+    <!-- 替换SUW的脚本 -->
+    <string name="wizard_script_uri">"android.resource://com.tplink.overlay_setupwizard/raw/wizard_script_user_new"</string>
+    <!-- <string name="wizard_script_user_uri">"android.resource://com.tplink.overlay_setupwizard/raw/wizard_script_user_new"</string> -->
+    <!-- 替换SUW的脚本 -->
+</resources>

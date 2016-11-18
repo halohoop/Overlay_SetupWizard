@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.setupwizardlib.SetupWizardLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:suwHeaderText="@string/title"
+    app:suwBackgroundTile="@drawable/illustration_tile"
+    app:suwIllustration="@drawable/setup_illustration_wifi" 
+    app:suwIllustrationAspectRatio="2.2" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/tv_note"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/long_show" />
+    </ScrollView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="crash"
+        android:padding="10dp"
+        android:text="@string/crash" />
+
+</com.android.setupwizardlib.SetupWizardLayout>

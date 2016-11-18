@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.tplink.overlay_setupwizard">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <receiver android:name=".receivers.PartnerReceiver" >
+            <intent-filter>
+                <action android:name="com.android.setupwizard.action.PARTNER_CUSTOMIZATION" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name=".activities.WelcomeActivity"
+                  android:theme="@style/AppBaseThemeNoTitleBarLight"
+                  android:taskAffinity="com.android.wizard"
+                  android:configChanges="orientation|keyboardHidden|keyboard|screenSize" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="com.overlay.setupwizard.ADDITIONAL_WELCOME" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".activities.DeclareActivity"
+                  android:theme="@style/AppBaseThemeNoTitleBarLight"
+                  android:taskAffinity="com.android.wizard"
+                  android:configChanges="orientation|keyboardHidden|keyboard|screenSize" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="com.overlay.setupwizard.ADDITIONAL_FINAL" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
